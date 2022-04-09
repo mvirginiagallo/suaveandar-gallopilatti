@@ -1,0 +1,410 @@
+*{
+    box-sizing: border-box
+}  
+
+body{
+    margin: 0;
+    }
+    
+
+/*PAGINA INICIO*/
+
+.fondo{
+    filter: blur(90px);
+    position: absolute;
+    width: 1721px;
+    height: 1190px;
+    left: 0px;
+    top: 0px;
+    z-index: -999;   
+}
+
+.menu {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    }
+
+.menu__seleccion{
+    color: #000D65;
+    text-decoration: underline;
+    }
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    color: #ffffff;
+
+    position: absolute;
+    width: 522px;
+    height: 68px;
+    left: 109px;
+    top: 500px;
+}
+
+h2{
+    color: #ffffff;
+    position: absolute;
+    width: 440px;
+    height: 41px;
+    left: 150px;
+    top: 597px;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 1px;
+    text-align: center;
+    top: 597px;
+}
+
+.logo-inicio{
+    position: absolute;
+    width: 276px;
+    height: 130px;
+    left: 232px;
+    top: 828px;
+}
+
+.foto-principal{
+    position: absolute;
+    width: 538px;
+    height: 723px;
+    left: 732px;
+    top: 235px;
+}
+
+.contenedor-frase{
+    background-color: #000D65;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 1072px;
+}
+
+.frase-inicio{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #ffffff;
+
+    position: absolute;
+    width: 237px;
+    height: 34px;
+    left: 622px;
+    top: 60px;
+    }
+
+ .carrusel-1{
+        position: absolute;
+        width: 569px;
+        height: 388px;
+        left: -270px;
+        top: 1574px;
+     }
+    
+.carrusel-2{
+        position: absolute;
+        width: 725px;
+        height: 507px;
+        left: 343px;
+        top: 1514px;
+     }
+    
+.carrusel-3{
+        position: absolute;
+        width: 600px;
+        height: 388px;
+        left: 1112px;
+        top: 1579px;
+        }
+
+footer{
+    background-color: #000D65;
+    position: absolute;
+    width: 1440px;
+    height: 92px;
+    top: 2161px;
+    padding: 25px 625px
+}
+
+span{
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-around;
+    }
+
+   
+   
+    /*SOBRE MI*/
+
+.contenedor-menu{
+    background-color: #000D65;
+    width: 100%;
+    padding: 30px;
+    top: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.nombre{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: #000D65;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+
+    position: absolute;
+    width: 418px;
+    height: 54px;
+    left: 137px;
+    top: 223px;
+ }
+
+ .especialidad{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: #000D65;
+    letter-spacing: 0.215em;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+        
+
+    position: absolute;
+    width: 360px;
+    height: 34px;
+    left: 137px;
+    top: 285px;
+ }
+
+ .foto-sobremi{
+    position: absolute;
+    width: 538px;
+    height: 723px;
+    left: 732px;
+    top: 235px;
+    border: 2px solid #000D65;
+    box-sizing: border-box;
+ }
+
+ .presentacion{
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 34px;
+
+    position: absolute;
+    width: 512px;
+    height: 578px;
+    left: 137px;
+    top: 413px;
+ }
+
+ .contenedor-logo{
+    background: #000D65;
+    position: absolute;
+    width: 1440px;
+    height: 303px;
+    padding: 0;
+    margin: 0;
+    top: 1072px;
+ }
+
+ .logo{
+    position: absolute;
+    width: 276px;
+    height: 130px;
+    left: 582px;
+    top: 80px;
+ } 
+
+
+/*PATOLOGIAS*/
+
+.card-w{
+    display: flex;
+    background-color:#ffffff;
+    justify-content: flex-start;
+    flex-direction: row;
+    }
+
+.card-w__titulo{
+    font-family:'Open Sans', sans-serif;
+    color: #000D65;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    padding-left: 100px;
+}
+
+.card-w__textos{
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+    display: flex;
+    line-height: 28px;
+    padding-right: 100px;
+    margin-top: 160px;
+       }
+
+.card-w__img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.card-b{
+    display: flex;
+    background-color:#000D65;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    }
+
+.card-b__titulo{
+    font-family:'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 50px;
+    padding-right: 100px;
+}
+
+.card-b__textos{
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    display: flex;
+    line-height: 28px;
+    padding-right: 0px;
+    padding-top: 80px;
+    text-align: right;
+    justify-content: right;
+    }
+
+.card-b__img{
+    width: 100%;
+    margin-top: 30px;
+    justify-content: flex-end;
+}
+
+ /*CONTACTO*/
+
+ .contacto__titulo{
+    position: absolute;
+    width: 422px;
+    height: 54px;
+    left: 509px;
+    top: 223px;
+    display: inline-block;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 54px;
+
+    font-family:'Open Sans', sans-serif;
+    color: #000D65;
+ }
+.contenedor-logofinal{
+    background-color: #000D65;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 1700px;
+    padding: 50px 590px;
+    }
+
+.logo__final{
+        position: absolute;
+        width: 276px;
+        height: 130px;
+    }
+
+.contacto__mapa{
+    position: absolute;
+    width: 1440px;
+    height: 740px;
+    left: 5px;
+    top: 746px;
+}
+
+.contacto__horario{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 265px;
+height: 236px;
+left: 177px;
+top: 430px;
+
+font-family:'Open Sans', sans-serif;
+color: #000D65;
+}
+
+.contacto__direccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 434px;
+    height: 248px;
+    left: 526px;
+    top: 420px;
+
+    font-family:'Open Sans', sans-serif;
+    color: #000D65;
+}
+
+.contacto__turnos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 144px;
+    height: 178px;
+    left: 1119px;
+    top: 420px;
+
+
+    font-family:'Open Sans', sans-serif;
+    color: #000D65;
+}
