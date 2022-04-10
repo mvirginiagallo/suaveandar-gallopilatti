@@ -1,32 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="CSS/estilosss.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-    <link href="https: //fonts.googleapis.com/css2? family= Open+Sans:ital,wght@0,400;1,400;1,600 & display=swap" rel="stylesheet"/>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul class="contenedor-menu">
-                <li ><a href="index.html">Inicio</a></li>
-                <li ><a href="Sobremi.html">Sobre Mi</a></li>
-                <li ><a href="patologias.html">Patologias</a></li>
-                <li ><a href="PDM.html">Podologos del Mundo</a></li>
-                <li ><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section >
-        <h2 class="contacto__titulo"> Comunicate Conmigo </h2>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Hoja de estilos-->
+        <link rel="stylesheet" href="../CSS/grid.css">
+        <!--Mediaqueries-->
+        <link rel="stylesheet" href="../CSS/mediaqueries.css">
+        <link rel="shortcut icon" href="../assets/Diseño sin título.jpg" type="image/x-icon">
+        <!--Tipografia-->
+        <link href="https: //fonts.googleapis.com/css2? family= Open+Sans:ital,wght@0,400;1,400;1,600 & display=swap" rel="stylesheet"/>
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/db78737f23.js" crossorigin="anonymous"></script>
+        <title>Suave Andar</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul class="menu">
+                    <li ><a href="../index.html">Inicio</a></li>
+                    <li ><a href="../paginas/sobremi.html">Sobre Mi</a></li>
+                    <li ><a href="../paginas/patologias.html">Patologias</a></li>
+                    <li ><a href="../paginas/pdm.html">Podologos del Mundo</a></li>
+                    <li ><a class="menu__seleccion" href="#">Contacto</a></li>
+                </ul>
+    
+                <div class="menu-bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+    <section class="contacto">
+       
+            <h2> Comunicate Conmigo </h2>   
+      
 
         
         <article class="contacto__horario">
-            <i class="fa-regular fa-clock"></i>
+            <img src="../assets/reloj-de-pared (2).png" alt="">
             <h4>HORARIO</h4>
             <p>Lunes a Viernes<p>
             <p>08:00 a 13:00hs <br>
@@ -34,7 +47,7 @@
             <p>
         </article>
         <article class="contacto__direccion">
-            <i class="fa-solid fa-location-dot"></i>
+            <img src="../assets/placeholder.png">
             <h4>DIRECCION</h4>
             <p>Prana Multiespacio<p>
             <p>Republica 863 <br>
@@ -42,22 +55,31 @@
             <p>
         </article>
         <article class="contacto__turnos">
-            <i class="fa-brands fa-whatsapp"></i>
+            <img src="../assets/whatsapp (1).png" alt="">
             <h4>TURNOS</h4>
             <p>3834555727<p>
         </article>
-        <article>
-            <img class="contacto__mapa" src="assets/Mapsicle Map.png"height="740" width="1440"/>
+
+        <article class="mapa">
+            
         </article>
+   
         <article class="contenedor-logofinal">
             <br>
                 <img class="logo__final" src="assets/Recurso 1.png"/>
             <br>
         </article>
     </section>
+
+    <footer class="piedepagina">
+        <div class="derechos">
+            <h4>All rights reserved ©Copyright 2022</h4>
+        </div>
+        <div class="desarrollado">
+            <h4>Designed by Virginia Gallo</h4>
+        </div> 
+    </footer>
+
     </body>
-    <footer>
-        <span> All rights reserved ©Copyright 2022 <br>
-                    Designed by Virginia Gallo </span>  
-       </footer>
+  
 </html>
