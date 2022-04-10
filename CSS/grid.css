@@ -149,13 +149,15 @@ header .fondo{
    }
 
 .principal .logo{
-   grid-row: 6/7;
+   grid-row: 4;
    grid-column: 3;
    height: 30vh;
    width: 50vh;
    margin-left:-50px;
    position: relative;
-      
+   margin-top: 10vh;
+   
+  
    
  }
 
